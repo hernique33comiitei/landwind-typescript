@@ -1,0 +1,15 @@
+.welcomeContainer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.welcomeContainer div {
+  width: 60%;
+}

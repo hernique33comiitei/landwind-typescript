@@ -1,0 +1,44 @@
+.containerApresentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  margin-top: 70px; /*70px IS THE HEIGHT NAV BAR*/
+}
+
+.apresentation_textsContainer {
+  width: 60%;
+}
+
+.apresentation_textsMain {
+  font-weight: 600;
+  font-size: clamp(60px, 2vw, 70px);
+  letter-spacing: 0;
+}
+
+.apresentation_textExplanation {
+  margin-top: 15px;
+  color: var(--color-letterWeak);
+  font-weight: 300;
+  font-size: clamp(18px, 2vw, 20px);
+  max-width: 670px;
+  line-height: 25px;
+}
+
+.apresentation_buttonsContainer {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+}
+
+.apresentation_imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.apresentation_imageContainer img {
+  width: 100%;
+}

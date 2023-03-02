@@ -1,0 +1,23 @@
+.buttonOpenProjectOtherContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  font-size: clamp(12px, 2vw, 14px);
+  font-weight: 500;
+  border: 1px solid var(--border-transparent);
+  padding: 10px 25px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.buttonOpenProjectOtherContainer:hover {
+  color: var(--color-blueWeak);
+  background-color: var(--background-trasnparent);
+}
+
+.buttonOpenProjectOtherContainer_image {
+  height: 20px;
+}

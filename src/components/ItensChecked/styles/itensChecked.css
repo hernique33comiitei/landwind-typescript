@@ -1,0 +1,13 @@
+.itensCheckedContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.itensChecked_task {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  font-weight: 500;
+  font-size: clamp(14px, 2vw, 16px);
+}

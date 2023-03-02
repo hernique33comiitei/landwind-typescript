@@ -1,0 +1,15 @@
+.textArrowLink {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  text-decoration: none;
+  color: var(--color-blueWeak);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: clamp(12px, 2vw, 16px);
+}
+
+.textArrowLink:hover {
+  color: var(--color-blueStrong);
+}
