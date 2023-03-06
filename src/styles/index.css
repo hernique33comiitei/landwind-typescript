@@ -5,6 +5,10 @@
   font-family: system-ui, -apple-system, sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 :root {
   --color-gray: #374151;
   --color-quote: #9ca3af;

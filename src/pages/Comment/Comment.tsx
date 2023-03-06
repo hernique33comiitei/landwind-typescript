@@ -7,7 +7,11 @@ import "./styles/comment.css";
 
 export default function Comment() {
   return (
-    <div className="commentDiv">
+    <div
+      className="commentDiv"
+      data-aos="fade-left"
+      data-aos-offset="500"
+      data-aos-duration="500">
       <Container classPersonalization="containerComment">
         <FaQuoteLeft className="iconQuoteComment" />
         <p className="commentText">

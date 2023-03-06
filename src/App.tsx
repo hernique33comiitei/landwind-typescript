@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+
 import WelcomeAnimation from "./components/WelcomeAnimation/WelcomeAnimation";
 import Navbar from "./components/Navbar/Navbar";
 import Apresentation from "./pages/Apresentation/Apresentation";
@@ -9,8 +12,13 @@ import Trusted from "./pages/Trusted/Trusted";
 import Comment from "./pages/Comment/Comment";
 
 import "./styles/app.css";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   const tasksGraphics = [
     "Continuous integration and deployment",
     "Development workflow",

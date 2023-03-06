@@ -12,7 +12,7 @@ import "./styles/trusted.css";
 export default function Trusted() {
   return (
     <Container classPersonalization="trustedContainer">
-      <div className="trusted_divTexts">
+      <div className="trusted_divTexts" data-aos="flip-up" data-aos-delay="300">
         <p className="trusted_textTrustedWorldwide">Trusted Worldwide</p>
         <p className="trusted_textMain">
           Trusted by over 600 million users and 10,000 teams

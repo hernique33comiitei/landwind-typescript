@@ -4,9 +4,14 @@ import { GraphicsProps } from "../../interfaces/Interfaces";
 
 import "./styles/graphics.css";
 
-export default function Graphics({ ...props }: GraphicsProps) {
+export default function Graphics(props: GraphicsProps) {
   return (
-    <div className="graphicsBackground">
+    <div
+      className="graphicsBackground"
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      data-aos-duration="500"
+      data-aos-delay="300">
       <Container
         classPersonalization={`graphicsContainer ${props.rowOrRowReverse}`}>
         <div className="graphicOne_textsContainer">
@@ -16,7 +21,7 @@ export default function Graphics({ ...props }: GraphicsProps) {
           <p className="graphicOne_textAssistant">{props.textGenericTwo}</p>
         </div>
         <div className="graphicOne_imageContainer">
-          <img src={props.image} alt="" />
+          <img src={props.image} alt="graphic" />
         </div>
       </Container>
     </div>

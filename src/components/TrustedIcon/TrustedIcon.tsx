@@ -8,7 +8,10 @@ export default function TrustedIcon({
   textGeneric,
 }: TrustedIconProps) {
   return (
-    <div className="trustedIconContainer">
+    <div
+      className="trustedIconContainer"
+      data-aos="zoom-in-down"
+      data-aos-delay="300">
       {icon}
       <p className="trustedIcon_textMain">{textMain}</p>
       <p className="trustedIcon_textGeneric">{textGeneric}</p>
