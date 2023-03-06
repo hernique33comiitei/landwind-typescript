@@ -1,0 +1,63 @@
+.commentDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 500px;
+  background-color: var(--background-gray);
+}
+
+.containerComment {
+  display: flex;
+  gap: 25px;
+  padding: 20px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconQuoteComment {
+  fill: var(--color-quote);
+  font-size: 40px;
+}
+
+.commentText {
+  text-align: center;
+  max-width: 650px;
+  font-size: clamp(20px, 2vw, 22px);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.commentPersonInfoDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.commentImagePerson {
+  height: 30px;
+  border-radius: 100%;
+}
+
+.commentNamePerson {
+  display: flex;
+  gap: 20px;
+  font-size: clamp(14px, 2vw, 16px);
+  font-weight: 500;
+  padding: 1px;
+}
+
+.commentNamePerson::after {
+  content: " ";
+  height: 20px;
+  width: 2px;
+  background-color: var(--color-quote);
+}
+
+.commentOfficePerson {
+  color: var(--color-quote);
+  font-weight: 300;
+  font-size: clamp(12px, 2vw, 14px);
+}

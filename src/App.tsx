@@ -6,6 +6,7 @@ import Graphics from "./pages/Graphics/Graphics";
 import graphicOneImage from "./assets/graphics/feature-1.png";
 import graphicTwoImage from "./assets/graphics/feature-2.png";
 import Trusted from "./pages/Trusted/Trusted";
+import Comment from "./pages/Comment/Comment";
 
 import "./styles/app.css";
 
@@ -39,6 +40,7 @@ function App() {
         rowOrRowReverse="row-reverse"
       />
       <Trusted />
+      <Comment />
     </div>
   );
 }
