@@ -16,7 +16,7 @@ import "aos/dist/aos.css";
 
 function App() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({ delay: 300, duration: 500 });
   }, []);
 
   const tasksGraphics = [

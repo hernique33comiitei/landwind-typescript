@@ -1,0 +1,53 @@
+@media (max-width: 1024px) {
+  .containerApresentation {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .apresentation_imageContainer img {
+    transform: translateX(10px);
+  }
+
+  .apresentation_buttonsContainer {
+    justify-content: center;
+  }
+
+  .apresentation_textsMain {
+    font-size: clamp(40px, 2vw, 60px);
+  }
+
+  .apresentation_textExplanation {
+    font-size: clamp(14px, 2vw, 16px);
+  }
+}
+
+@media (max-width: 768px) {
+  .apresentation_imageContainer {
+    width: 100%;
+  }
+
+  .apresentation_imageContainer img {
+    width: 60%;
+  }
+
+  .apresentation_textsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
+  .apresentation_buttonsContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .itensCheckedContainer .itensChecked_task {
+    gap: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

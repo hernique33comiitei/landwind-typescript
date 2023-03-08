@@ -1,3 +1,5 @@
+import Container from "../Container/Container";
+
 import airbnbLogo from "../../assets/imagesPartner/airbnb.svg";
 import googleLogo from "../../assets/imagesPartner/google.svg";
 import microsoftLogo from "../../assets/imagesPartner/microsoft.svg";
@@ -6,7 +8,7 @@ import spotifyLogo from "../../assets/imagesPartner/spotify.svg";
 import mashableLogo from "../../assets/imagesPartner/mashable.svg";
 
 import "./styles/partnerImages.css";
-import Container from "../Container/Container";
+import "./styles/mqPartnerImages.css";
 
 export default function PartnerImages() {
   return (

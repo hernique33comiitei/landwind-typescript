@@ -9,7 +9,7 @@ export default function Comment() {
   return (
     <div
       className="commentDiv"
-      data-aos="fade-left"
+      data-aos="fade-down"
       data-aos-offset="500"
       data-aos-duration="500">
       <Container classPersonalization="containerComment">

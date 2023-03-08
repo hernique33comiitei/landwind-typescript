@@ -1,6 +1,7 @@
 import { ButtonOpenProjectOtherProps } from "../../interfaces/Interfaces";
 
 import "./styles/buttonOpenProjectOther.css";
+import "./styles/mqButtonOpenProjectOther.css";
 
 export default function ButtonOpenProjectOther({
   imageLink,

@@ -8,11 +8,12 @@ import TextArrowLink from "../../components/TextArrowLink/TextArrowLink";
 import TrustedIcon from "../../components/TrustedIcon/TrustedIcon";
 
 import "./styles/trusted.css";
+import "./styles/mqTrusted.css";
 
 export default function Trusted() {
   return (
     <Container classPersonalization="trustedContainer">
-      <div className="trusted_divTexts" data-aos="flip-up" data-aos-delay="300">
+      <div className="trusted_divTexts" data-aos="flip-up">
         <p className="trusted_textTrustedWorldwide">Trusted Worldwide</p>
         <p className="trusted_textMain">
           Trusted by over 600 million users and 10,000 teams

@@ -4,7 +4,7 @@ import "./styles/buttonBlue.css";
 
 export default function ButtonBlue({
   text,
-  classPersonalization,
+  classPersonalization = "",
 }: ButtonBlueProps) {
   return (
     <button className={`buttonBlue ${classPersonalization}`} type="button">

@@ -1,0 +1,7 @@
+@media (max-width: 1024px) {
+  .partnerImagesContainer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+  }
+}

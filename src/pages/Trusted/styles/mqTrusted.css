@@ -1,0 +1,22 @@
+@media (max-width: 1024px) {
+  .trustedContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .textArrowLink {
+    justify-content: center;
+  }
+
+  .trustedIconContainer {
+    align-items: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .trusted_divTexts,
+  .trusted_divIcons {
+    align-items: center;
+    width: 100%;
+  }
+}

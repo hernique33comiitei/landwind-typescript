@@ -3,15 +3,14 @@ import ItensChecked from "../../components/ItensChecked/ItensChecked";
 import { GraphicsProps } from "../../interfaces/Interfaces";
 
 import "./styles/graphics.css";
+import "./styles/mqGraphics.css";
 
 export default function Graphics(props: GraphicsProps) {
   return (
     <div
       className="graphicsBackground"
       data-aos="fade-up"
-      data-aos-anchor-placement="top-bottom"
-      data-aos-duration="500"
-      data-aos-delay="300">
+      data-aos-anchor-placement="top-bottom">
       <Container
         classPersonalization={`graphicsContainer ${props.rowOrRowReverse}`}>
         <div className="graphicOne_textsContainer">

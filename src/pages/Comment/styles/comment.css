@@ -61,3 +61,10 @@
   font-weight: 300;
   font-size: clamp(12px, 2vw, 14px);
 }
+
+@media (max-width: 660px) {
+  .commentText {
+    font-size: clamp(14px, 2vw, 16px);
+    max-width: clamp(200px, 300px, 420px);
+  }
+}

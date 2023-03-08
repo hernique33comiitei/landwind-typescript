@@ -3,6 +3,7 @@ import heroLogo from "../../assets/icons/hero.png";
 import ButtonOpenProjectOther from "../../components/ButtonOpenProjectOther/ButtonOpenProjectOther";
 
 import "./styles/apresentation.css";
+import "./styles/mqApresentation.css";
 
 export default function Apresentation() {
   const imagesLinks = {
